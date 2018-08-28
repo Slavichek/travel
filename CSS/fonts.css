@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../Fonts/Montserrat-Regular/montserrat-regular-webfont.woff2') format('woff2'),
+         url(../Fonts/Montserrat-Regular/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nunitoregular';
+    src: url('../Fonts/Nunito_Regular/nunito-regular-webfont.woff2') format('woff2'),
+         url('../Fonts/Nunito_Regular/nunito-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../Fonts/Open_Sans/open_sans_light-webfont.woff2') format('woff2'),
+         url('../Fonts/Open_Sans/open_sans_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../Fonts/Open_Sans/11549-webfont.woff2') format('woff2'),
+         url('../Fonts/Open_Sans/11549-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../Fonts/Open_Sans/2212-webfont.woff2') format('woff2'),
+         url('../Fonts/Open_Sans/2212-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

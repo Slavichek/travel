@@ -1,0 +1,152 @@
+
+
+@media screen and (max-width: 1400px) {
+	.slider__item h1,
+	.slider__item h1 span{
+		font-size: 1.5rem;
+		top:10%;
+	}
+}
+@media screen and (max-width: 1120px) {
+	.page__wrap{
+		width: 100%;
+	}
+	.header {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.logo__picture, .nav__list, .btn{
+		padding-bottom: 20px;
+	}
+
+	.slider__item .btn-member{
+		font-size: 1rem;
+		padding: 1.2rem 1.5rem;
+		bottom: 10%;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	html{
+		font-size: 80%
+	}
+	.properties__find-property-item,
+	.properties__find-buyers-item{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.properties__find-property-info,
+	.properties__find-buyers-info{
+		padding: 20px 0;
+		text-align: center;
+	}
+
+}
+@media screen and (max-width: 940px) {
+	html {
+		font-size: 80%;
+	}
+	.towers__controls-btn {
+		position: static;
+	}
+}
+
+
+@media screen and (max-width: 900px) {
+	.our-works__projects{
+		text-align: center;
+	}
+	.our-works__projects img{
+	float: none;
+	margin-right: 0;
+	margin-bottom: 2rem;
+	}
+	
+}
+
+
+@media screen and (max-width: 870px) {
+	.our-works__tabs-box{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 30px auto;
+	}
+	.our-works__tabs-box a{
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+	.international__blockquotes{
+		display: flex;
+		-moz-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.towers__photos{
+		display: flex;
+		flex-direction: column;
+	}
+	.towers__photos-item{
+		width: 50%;
+		margin: 10px auto;
+	}
+}
+@media screen and (max-width: 670px) {
+	.slider__item h1,
+	.slider__item h1 span{
+		display: none;
+	}
+	.slider__item .btn-member{
+		font-size: 0.6rem;
+		padding: .5rem .5rem;
+		bottom: 20%;
+	}
+}
+@media screen and (max-width: 570px) {
+	.nav__btn {
+		display: block;
+	}
+	.btn-nav{
+		margin-bottom: 20px;
+	}
+	.nav__list {
+		display: none;
+	}
+	.nav__list--open {
+		display: block;
+	}
+	.nav__item{
+		display: block;
+		text-align: center;
+		margin-right: 0px !important;
+		padding: 10px 20px;
+		background: #b7b7b7;
+		border: 1px solid #F3FD4E;
+	}
+}
+@media screen and (max-width: 450px) {
+		.our-works__tabs-box a{
+		font-size: 1rem;
+		margin-bottom: 20px;
+	}
+	.our-works__tabs-box a span{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	line-height: 25px;
+	}
+	.properties__find-property-wrap,
+	.properties__find-buyers-wrap{
+		width: 100%;
+	}
+	.towers__photos-item{
+		width: 70%;
+		margin: 10px auto;
+	}
+}
